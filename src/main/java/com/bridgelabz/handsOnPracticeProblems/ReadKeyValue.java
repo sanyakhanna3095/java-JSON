@@ -11,9 +11,12 @@ public class ReadKeyValue {
             ObjectMapper obj=new ObjectMapper();
             JsonNode jsonNode = obj.readTree(new File("/Users/sanyakhanna/Desktop/bridgelabz-workspace/java-JSON/src/main/java/com/bridgelabz/practiceProblems/studentInfo.json"));
 //            System.out.println(jsonNode.toString());
-            for(JsonNode s: jsonNode){
-                System.out.println(s);
-            }
+//            for(JsonNode s: jsonNode){
+//                System.out.println(s);
+//            }
+
+            String s=obj.writeValueAsString(jsonNode);
+            System.out.println(s);
         }
         catch (Exception e){
             e.printStackTrace();
