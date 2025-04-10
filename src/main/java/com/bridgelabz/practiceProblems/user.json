@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Sanya Khanna",
+    "age": 21,
+    "email":"sanya12@gmail.com"
+  },
+  {
+    "name": "Sehajpreet Kaur",
+    "age": 27,
+    "email": "sehaj08765@gmail.com"
+  },
+  {
+    "name": "Chirag",
+    "age": 32,
+    "email": "chir@gmail.com"
+  },
+  {
+    "name": "Aarush Khanna",
+    "age": 18,
+    "email": "aaru110@gmail.com"
+  },
+  {
+    "name": "Mehak Sharma",
+    "age": 29,
+    "email": "mehak09876@gmail.com"
+  }
+]
