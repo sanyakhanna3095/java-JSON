@@ -40,9 +40,8 @@ public class CarJSON {
         json.put("model", car.getModel());
         json.put("year", car.getYear());
 
-        // Print the JSON output
         System.out.println("Car in JSON format:");
-        System.out.println(json.toString()); // Pretty print
+        System.out.println(json.toString());
     }
 }
 
